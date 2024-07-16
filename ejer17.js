@@ -1,12 +1,13 @@
+//INSTAGRAM: leonardo_palomino1
+//TWITCH: lacasainformatica
+
 //Escribe una función que tome una cadena 
 //como entrada y devuelva 
 //la cadena invertida.
-
-function invertirCadena(cadena){
+   function invertir(cadena){
     return cadena.split('').reverse().join('');
-}
-console.log(invertirCadena("hola"));
-
+   }
+   console.log(invertir('TWITCH'));
 //Leo
 //['L','e','o'] split
 //['o','e','L'] reverse
